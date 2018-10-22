@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Battery_Group" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Bolt_1_);}
+</style>
+<linearGradient id="Bolt_1_" gradientUnits="userSpaceOnUse" x1="-229.4732" y1="440.2221" x2="-229.4732" y2="438.4141" gradientTransform="matrix(45.724 0 0 -80.2 10567.4307 35308.3125)">
+	<stop  offset="0" style="stop-color:#59C2FF"/>
+	<stop  offset="1" style="stop-color:#1270E3"/>
+</linearGradient>
+<path id="Bolt" class="st0" d="M96,2.5L33.7,88.3h34.7L54,147.5l62.3-85.8H81.1L96,2.5z"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #171717;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Menu_Button" data-name="Menu Button" transform="translate(-44 -107)">
+    <line id="Line_4" data-name="Line 4" class="cls-1" x2="44.129" transform="translate(59.371 109.5)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-1" x2="44.129" transform="translate(46.5 127.5)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-1" x2="44.129" transform="translate(59.371 145.5)"/>
+  </g>
+</svg>

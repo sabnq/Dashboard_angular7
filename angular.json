@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AdminPro": {
+    "Dashboard": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AdminPro",
+            "outputPath": "dist/Dashboard",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,7 +23,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/style.css",
+              "src/assets/plugins/bootstrap/css/bootstrap.min.css",
+              "src/assets/css/colors/default-dark.css"
             ],
             "scripts": []
           },
@@ -57,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AdminPro:build"
+            "browserTarget": "Dashboard:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AdminPro:build:production"
+              "browserTarget": "Dashboard:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AdminPro:build"
+            "browserTarget": "Dashboard:build"
           }
         },
         "test": {
@@ -102,7 +105,7 @@
         }
       }
     },
-    "AdminPro-e2e": {
+    "Dashboard-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -111,11 +114,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AdminPro:serve"
+            "devServerTarget": "Dashboard:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AdminPro:serve:production"
+              "devServerTarget": "Dashboard:serve:production"
             }
           }
         },
@@ -131,5 +134,5 @@
       }
     }
   },
-  "defaultProject": "AdminPro"
+  "defaultProject": "Dashboard"
 }

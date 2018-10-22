@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Rectangle_2-9_1_);}
+	.st1{opacity:2.000000e-02;fill:#FDFDFD;enable-background:new    ;}
+</style>
+<g id="Group_134-3" transform="translate(-404 -647)">
+	<g transform="matrix(1, 0, 0, 1, 404, 647)">
+		
+			<linearGradient id="Rectangle_2-9_1_" gradientUnits="userSpaceOnUse" x1="167.7565" y1="106.7296" x2="167.7565" y2="104.7435" gradientTransform="matrix(72 0 0 -72 -12004.4648 7688.0317)">
+			<stop  offset="0" style="stop-color:#111111"/>
+			<stop  offset="1" style="stop-color:#2A2A2A"/>
+		</linearGradient>
+		<path id="Rectangle_2-9" class="st0" d="M18.4,3.5h111.2c8.8,0,15.9,7.1,15.9,15.9v111.2c0,8.8-7.1,15.9-15.9,15.9H18.4
+			c-8.8,0-15.9-7.1-15.9-15.9V19.4C2.5,10.6,9.6,3.5,18.4,3.5z"/>
+	</g>
+	<g transform="matrix(1, 0, 0, 1, 404, 647)">
+		<path id="Subtraction_1-9" class="st1" d="M2.5,115.2L2.5,115.2V20.4c0-9.3,7.6-16.9,16.9-16.9h111.2c9.3,0,16.9,7.6,16.9,16.9v36
+			c-11.5-2.7-23.2-4-35-4C60.1,52.3,14.9,78.2,2.5,115.2z"/>
+	</g>
+</g>
+</svg>

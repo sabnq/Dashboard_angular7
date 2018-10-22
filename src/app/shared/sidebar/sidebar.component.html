@@ -1,40 +1,43 @@
-<!-- ============================================================== -->
-<!-- Left Sidebar - style you can find in sidebar.scss  -->
-<!-- ============================================================== -->
 <aside class="left-sidebar">
   <!-- Sidebar scroll-->
   <div class="scroll-sidebar">
     <!-- Sidebar navigation-->
     <nav class="sidebar-nav">
       <ul id="sidebarnav">
-        <li class="user-profile">
-          <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><img src="../assets/images/users/profile.png"
-              alt="user" /><span class="hide-menu">Steave Jobs </span></a>
+        <li> <a class="waves-effect waves-dark" routerLink="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-gauge"></i><span
+              class="hide-menu">Dashboard</span></a></li>
+        <li> <a class="has-arrow waves-effect waves-dark" routerLink="javascript:void(0)" aria-expanded="false"><i class="mdi">
+              <div class="logo"><img src="assets/svg/icon_scooter.svg" class="logo-img" width="20"></div>
+            </i><span class="hide-menu">Admin users<span class="label label-rouded label-themecolor pull-right">4</span></span></a>
           <ul aria-expanded="false" class="collapse">
-            <li><a href="javascript:void()">My Profile </a></li>
-            <li><a href="javascript:void()">My Balance</a></li>
-            <li><a href="javascript:void()">Inbox</a></li>
-            <li><a href="javascript:void()">Account Setting</a></li>
-            <li><a href="javascript:void()">Logout</a></li>
+            <li><a routerLink="user_admin/add_admin_user">Add admin user </a></li>
+            <li><a [routerLink]="['user_admin']"> Admin Users</a></li>
           </ul>
         </li>
-        <li class="nav-devider"></li>
-        <li class="nav-small-cap">PERSONAL</li>
-        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span
-              class="hide-menu">Dashboard <span class="label label-rouded label-themecolor pull-right">4</span></span></a>
-          <ul aria-expanded="false" class="collapse">
-            <li><a href="index.html">Minimal </a></li>
-            <li><a href="index2.html">Analytical</a></li>
-            <li><a href="index3.html">Demographical</a></li>
-            <li><a href="index4.html">Modern</a></li>
+        <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi">
+              <div class="logo"><img src="assets/svg/icon_scooter.svg" class="logo-img" width="20"></div>
+            </i><span class="hide-menu">Riders<span class="label label-rouded label-themecolor pull-right">4</span></span></a>
+          <ul aria-expanded="false" class="collapse" id="test">
+            <li><a routerLink="riders/add_rider">Add rider </a></li>
+            <li><a [routerLink]="['riders']"> Admin riders</a></li>
+            <li><a routerLink="riders/riders_location">Rider location </a></li>
           </ul>
-        </li>        
+        </li>
+        <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi">
+              <div class="logo"><img src="assets/svg/icon_scooter_dash.svg" class="logo-img" width="20"></div>
+            </i><span class="hide-menu">Scooters<span class="label label-rouded label-themecolor pull-right">4</span></span></a>
+          <ul aria-expanded="false" class="collapse">
+              <li><a routerLink="scooters/add_scooter">Add Scooter </a></li>
+              <li><a [routerLink]="['scooters']"> Admin scooters</a></li>
+              <li><a routerLink="scooters/scooters_location">Scooters location </a></li>
+          </ul>
+        </li>
+        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i class="mdi mdi-account-check"></i><span
+              class="hide-menu">Profile</span></a></li>
+
       </ul>
     </nav>
     <!-- End Sidebar navigation -->
   </div>
   <!-- End Sidebar scroll-->
 </aside>
-<!-- ============================================================== -->
-<!-- End Left Sidebar - style you can find in sidebar.scss  -->
-<!-- ============================================================== -->
