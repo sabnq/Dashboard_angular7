@@ -51,8 +51,10 @@ Global Styles
 *******************/
 @import url(../scss/icons/font-awesome/css/font-awesome.min.css);
 @import url(../scss/icons/simple-line-icons/css/simple-line-icons.css);
+@import url(../scss/icons/weather-icons/css/weather-icons.min.css);
 @import url(../scss/icons/linea-icons/linea.css);
 @import url(../scss/icons/themify-icons/themify-icons.css);
+@import url(../scss/icons/flag-icon-css/flag-icon.min.css);
 @import url(../scss/icons/material-design-iconic-font/css/materialdesignicons.min.css);
 @import url(../css/spinners.css);
 @import url(../css/animate.css);
@@ -839,7 +841,7 @@ sidebar navigation
     margin-top: 6px; }
   .sidebar-nav > ul > li > a.active {
     font-weight: 400;
-    background: transparent;
+    background: #ffffff;
     color: #26c6da; }
   .sidebar-nav > ul > li {
     margin-bottom: 5px; }
@@ -2688,6 +2690,9 @@ Form addons page
   background: #398bf7;
   color: #ffffff;
   border-color: #398bf7; }
+
+.input-form .btn {
+  padding: 8px 12px; }
 
 /*============================================================== 
 Form Material page
@@ -5549,6 +5554,53 @@ File: scss
 /*-------------------*/
 /*Bootstrap 4 hack*/
 /*-------------------*/
+.bootstrap-touchspin .input-group-btn {
+  -webkit-box-align: normal;
+  -webkit-align-items: normal;
+  -ms-flex-align: normal;
+  align-items: normal; }
+
+.form-control-danger, .form-control-success, .form-control-warning {
+  padding-right: 2.25rem;
+  background-repeat: no-repeat;
+  background-position: center right .5625rem;
+  -webkit-background-size: 1.125rem 1.125rem;
+  background-size: 1.125rem 1.125rem; }
+
+.has-success .col-form-label, .has-success .custom-control, .has-success .form-check-label, .has-success .form-control-feedback, .has-success .form-control-label {
+  color: #06d79c; }
+
+.has-success .form-control-success {
+  background-image: url(../../assets/images/icon/success.svg); }
+
+.has-success .form-control {
+  border-color: #06d79c; }
+
+.has-warning .col-form-label, .has-warning .custom-control, .has-warning .form-check-label, .has-warning .form-control-feedback, .has-warning .form-control-label {
+  color: #ffb22b; }
+
+.has-warning .form-control-warning {
+  background-image: url(../../assets/images/icon/warning.svg); }
+
+.has-warning .form-control {
+  border-color: #ffb22b; }
+
+.has-danger .col-form-label, .has-danger .custom-control, .has-danger .form-check-label, .has-danger .form-control-feedback, .has-danger .form-control-label {
+  color: #ef5350; }
+
+.has-danger .form-control-danger {
+  background-image: url(../../assets/images/icon/danger.svg); }
+
+.has-danger .form-control {
+  border-color: #ef5350; }
+
+.input-group-addon [type="radio"]:not(:checked),
+.input-group-addon [type="radio"]:checked,
+.input-group-addon [type="checkbox"]:not(:checked),
+.input-group-addon [type="checkbox"]:checked {
+  position: initial;
+  opacity: 1; }
+
 .invisible {
   visibility: hidden !important; }
 
@@ -5794,9 +5846,7 @@ File: scss
   ul.timeline:before {
     left: 40px; }
   ul.timeline > li > .timeline-panel {
-    width: "calc(100% - 90px)";
-    width: "calc(100% - 90px)";
-    width: "calc(100% - 90px)"; }
+    width: calc(100% - 90px); }
   ul.timeline > li > .timeline-badge {
     top: 16px;
     left: 15px;
